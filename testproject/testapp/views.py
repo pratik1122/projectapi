@@ -3,7 +3,8 @@ from django.shortcuts import render
 import requests
 import json
 from django.contrib.gis.geoip2 import GeoIP2
-
+import json
+from django.http import HttpResponse, HttpResponseRedirect
 
 
 def geo (request):
@@ -28,9 +29,6 @@ def geo (request):
 
 
 
-
-
-
 # from django.shortcuts import render
 # import requests
 #
@@ -50,3 +48,6 @@ def geo (request):
 #         'latitude': geodata['latitude'],
 #         'longitude': geodata['longitude'],
 #         'api_key': 'AIzaSyC1UpCQp9zHokhNOBK07AvZTiO09icwD8I',  # Don't do this! This is just an example. Secure your keys properly.
+
+
+
