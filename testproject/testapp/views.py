@@ -7,6 +7,7 @@ import json
 from django.http import HttpResponse, HttpResponseRedirect
 
 
+
 def geo (request):
     # ip_address = request.META.get('HTTP_X_FORWARDED_FOR', '')
     url = 'http://ip-api.com/json/'
