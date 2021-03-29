@@ -18,7 +18,7 @@ openpyxl==3.0.2
 pandas==0.25.3
 Pillow==6.2.1
 pygeoip==0.3.2
-Pygments==2.5.2
+Pygments==2.7.4
 python-dateutil==2.8.1
 pytz==2019.3
 reportlab==3.5.32
